@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "ignoreDeprecations": "6.0",
+        "paths": {
+            "@/*": ["resources/js/*"],
+            "@css/*": ["resources/css/*"],
+            "@images/*": ["resources/images/*"]
+        }
+    },
+    "exclude": ["node_modules", "public", "vendor"]
+}
